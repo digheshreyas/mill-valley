@@ -544,7 +544,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09fbfa8e06d12404fb850c57984a1c8b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoadName: TamHighScene
+  sceneToLoadName: OldMillScene
   portalSpawn: {fileID: 4334077657571460}
 --- !u!198 &198101566013746142
 ParticleSystem:
@@ -606,7 +606,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 0
-  randomSeed: -1932049245
+  randomSeed: -1528656510
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -3877,7 +3877,7 @@ ParticleSystem:
   moveWithTransform: 1
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 0
-  randomSeed: 244939832
+  randomSeed: 960930408
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -7178,7 +7178,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 0
-  randomSeed: -1158922368
+  randomSeed: 1990521225
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -10543,7 +10543,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 0
-  randomSeed: -1220257534
+  randomSeed: -702884894
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -13814,7 +13814,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 0
-  randomSeed: -1579093837
+  randomSeed: -1737079618
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -17175,7 +17175,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 0
-  randomSeed: -685444769
+  randomSeed: -1908044339
   InitialModule:
     serializedVersion: 3
     enabled: 1

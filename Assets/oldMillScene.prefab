@@ -13889,6 +13889,21 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!1 &1635985068623700
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4263704988068658}
+  m_Layer: 0
+  m_Name: RiverWater
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &1635985084658172
 GameObject:
   m_ObjectHideFlags: 1
@@ -26750,6 +26765,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 4956605414847284}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4263704988068658
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1635985068623700}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -169.39572, y: 26.840467, z: -79.646164}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4537261623868866}
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4263804603044514
 Transform:
@@ -72129,13 +72157,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4185bc77c7194462ca3b1097ef4a5de0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  reflectionMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  reflectSkybox: 1
-  clearColor: {r: 1, g: 1, b: 1, a: 1}
-  reflectionSampler: _ReflectionTex
-  clipPlaneOffset: 0.07
 --- !u!114 &114152634822777392
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -72158,8 +72179,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a91e8dd37cdd41efb4859b65aced7a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  reflection: {fileID: 114654705455924140}
-  waterBase: {fileID: 114364079935053342}
 --- !u!114 &114159130223629704
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -72171,13 +72190,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4185bc77c7194462ca3b1097ef4a5de0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  reflectionMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  reflectSkybox: 1
-  clearColor: {r: 1, g: 1, b: 1, a: 1}
-  reflectionSampler: _ReflectionTex
-  clipPlaneOffset: 0.07
 --- !u!114 &114180677191803034
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -72189,7 +72201,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de2ab2b9ac93bb544b9552e49030371b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  specularLight: {fileID: 4479670071589422}
 --- !u!114 &114187430387673106
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -72201,9 +72212,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a1da353243062479a9b31c85074a796b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sharedMaterial: {fileID: 0}
-  waterQuality: 2
-  edgeBlend: 1
 --- !u!114 &114233634038398748
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -72215,8 +72223,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a91e8dd37cdd41efb4859b65aced7a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  reflection: {fileID: 114159130223629704}
-  waterBase: {fileID: 114305805049051552}
 --- !u!114 &114245899362964410
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -72228,7 +72234,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de2ab2b9ac93bb544b9552e49030371b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  specularLight: {fileID: 4619620672465460}
 --- !u!114 &114277915662491532
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -72251,8 +72256,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a91e8dd37cdd41efb4859b65aced7a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  reflection: {fileID: 114639128953732676}
-  waterBase: {fileID: 114478969352110616}
 --- !u!114 &114292200462685718
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -72264,13 +72267,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4185bc77c7194462ca3b1097ef4a5de0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  reflectionMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  reflectSkybox: 1
-  clearColor: {r: 1, g: 1, b: 1, a: 1}
-  reflectionSampler: _ReflectionTex
-  clipPlaneOffset: 0.07
 --- !u!114 &114305805049051552
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -72282,9 +72278,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a1da353243062479a9b31c85074a796b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sharedMaterial: {fileID: 0}
-  waterQuality: 2
-  edgeBlend: 1
 --- !u!114 &114362250800012928
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -72296,7 +72289,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de2ab2b9ac93bb544b9552e49030371b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  specularLight: {fileID: 4191056780006040}
 --- !u!114 &114364079935053342
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -72308,9 +72300,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a1da353243062479a9b31c85074a796b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sharedMaterial: {fileID: 0}
-  waterQuality: 2
-  edgeBlend: 1
 --- !u!114 &114380993292064288
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -72322,8 +72311,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a91e8dd37cdd41efb4859b65aced7a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  reflection: {fileID: 114639128953732676}
-  waterBase: {fileID: 114478969352110616}
 --- !u!114 &114409446242177964
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -72335,8 +72322,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a91e8dd37cdd41efb4859b65aced7a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  reflection: {fileID: 114292200462685718}
-  waterBase: {fileID: 114187430387673106}
 --- !u!114 &114442106594211060
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -72348,8 +72333,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a91e8dd37cdd41efb4859b65aced7a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  reflection: {fileID: 114654705455924140}
-  waterBase: {fileID: 114364079935053342}
 --- !u!114 &114448053373961810
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -72372,9 +72355,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a1da353243062479a9b31c85074a796b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sharedMaterial: {fileID: 0}
-  waterQuality: 2
-  edgeBlend: 0
 --- !u!114 &114490034955879684
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -72397,8 +72377,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a91e8dd37cdd41efb4859b65aced7a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  reflection: {fileID: 114292200462685718}
-  waterBase: {fileID: 114187430387673106}
 --- !u!114 &114637869912524298
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -72410,8 +72388,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a91e8dd37cdd41efb4859b65aced7a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  reflection: {fileID: 114159130223629704}
-  waterBase: {fileID: 114305805049051552}
 --- !u!114 &114639128953732676
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -72423,13 +72399,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4185bc77c7194462ca3b1097ef4a5de0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  reflectionMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  reflectSkybox: 1
-  clearColor: {r: 1, g: 1, b: 1, a: 1}
-  reflectionSampler: _ReflectionTex
-  clipPlaneOffset: 0.07
 --- !u!114 &114653519461625068
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -72452,13 +72421,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4185bc77c7194462ca3b1097ef4a5de0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  reflectionMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  reflectSkybox: 1
-  clearColor: {r: 1, g: 1, b: 1, a: 1}
-  reflectionSampler: _ReflectionTex
-  clipPlaneOffset: 0.07
 --- !u!114 &114666078545688498
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -72470,7 +72432,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de2ab2b9ac93bb544b9552e49030371b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  specularLight: {fileID: 4263804603044514}
 --- !u!114 &114694321998992580
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -72482,8 +72443,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a91e8dd37cdd41efb4859b65aced7a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  reflection: {fileID: 114091766281064750}
-  waterBase: {fileID: 114757326526908354}
 --- !u!114 &114715189281713772
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -72495,7 +72454,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de2ab2b9ac93bb544b9552e49030371b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  specularLight: {fileID: 4938132163795204}
 --- !u!114 &114757326526908354
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -72507,9 +72465,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a1da353243062479a9b31c85074a796b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sharedMaterial: {fileID: 0}
-  waterQuality: 2
-  edgeBlend: 1
 --- !u!114 &114879676165481106
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -72521,8 +72476,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a91e8dd37cdd41efb4859b65aced7a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  reflection: {fileID: 114091766281064750}
-  waterBase: {fileID: 114757326526908354}
 --- !u!135 &135039896733842808
 SphereCollider:
   m_ObjectHideFlags: 1
